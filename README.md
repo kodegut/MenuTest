@@ -1,6 +1,8 @@
 # MenuTest
  Describing a bug with Sheet and Menu
  
+ This repository is related to a question in Apples developers forum, with id: <a href="https://developer.apple.com/forums/thread/692338">692338</a>
+ 
  ## Dismiss via Button doesn't work:
  ![MenuTestNotWorking](https://github.com/kodegut/MenuTest/blob/main/notWorking.gif)
 
@@ -15,5 +17,6 @@
 - using the method of setting the original „showingSheet“ Bool with a Binding to dismiss the sheet
 - putting the menu in various places
 - putting a ternary operator into the menu checking the „showingSheet“  Bool, to force an update
+- switching to a fullScreenCover instead
 - various other things that didn’t help
  

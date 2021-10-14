@@ -7,13 +7,12 @@
 
 import SwiftUI
 
-struct PortfolioView: View {
+struct ContentView: View {
     
     @State private var showingSheet = false
     
     var body: some View {
         NavigationView {
-            
             Button(action: {showingSheet = true}) {
                 Text("Open Sheet")
             }
@@ -22,7 +21,7 @@ struct PortfolioView: View {
                 ToolbarItem(placement: .primaryAction) {
                     Menu {
                         Button(action: {}) {
-                            Label(showingSheet ? "" : "MenuButton", systemImage: "rectangle.stack.badge.plus")
+                            Label("MenuButton", systemImage: "rectangle.stack.badge.plus")
                         }
                     }
                 label: {
@@ -37,10 +36,10 @@ struct PortfolioView: View {
     }
 }
 
-struct Portfolio_Previews: PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            PortfolioView()
+            ContentView()
                 .preferredColorScheme(.dark)
         }
     }
