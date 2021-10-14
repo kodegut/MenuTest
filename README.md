@@ -1,10 +1,10 @@
 # MenuTest
  Describing a bug with Sheet and Menu
  
- ##Dismiss via Button doesn't work:
+ ## Dismiss via Button doesn't work:
  ![MenuTestNotWorking](https://github.com/kodegut/MenuTest/blob/main/notWorking.gif)
 
-##Swiping down to dismiss does work:
+## Swiping down to dismiss does work:
  ![MenuTestWorking](https://github.com/kodegut/MenuTest/blob/main/working.gif)
  
  
